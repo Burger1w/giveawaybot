@@ -111,3 +111,7 @@ client.on("ready", () => {
 });
 
 client.login(process.env.token);
+
+client.on("ready", () => {
+  client.channels.cache.get("818903168091553803").join(); //Sesde Durcağı Kanalın İdsi
+});
