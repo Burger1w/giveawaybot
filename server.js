@@ -1,26 +1,25 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const client = new Discord.Client();
-const fs = require('fs');
-const moment = require('moment');
-const ayarlar = require('./ayarlar.json');
-require('./util/eventLoader')(client);
+const fs = require("fs");
+const moment = require("moment");
+const ayarlar = require("./ayarlar.json");
+require("./util/eventLoader")(client);
 client.ayarlar = ayarlar;
 var prefix = ayarlar.prefix;
 
-const { GiveawaysManager } = require('discord-giveaways');
+const { GiveawaysManager } = require("discord-giveaways");
 client.giveawaysManager = new GiveawaysManager(client, {
-    storage: "./db.json",
-    updateCountdownEvery: 3000,
-    default: {
-        botsCanWin: false,
-        embedColor: "#FF0000",
-        reaction: "🎉"
-    }
+  storage: "./db.json",
+  updateCountdownEvery: 3000,
+  default: {
+    botsCanWin: false,
+    embedColor: "#FF0000",
+    reaction: "🎉"
+  }
 });
 
-
 const log = message => {
-  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
+  console.log(`[${moment().format("YYYY-MM-DD HH:mm:ss")}] ${message}`);
 };
 
 client.commands = new Discord.Collection();
@@ -86,31 +85,29 @@ client.unload = command => {
   });
 };
 
-client.on('ready', () => {
-
+client.on("ready", () => {
   // Oynuyor Kısmı
-  
-      var actvs = [
-        `${prefix}yardım ${client.guilds.cache.size} sunucuyu`,
-        `${prefix}yardım ${client.users.cache.size} Kullanıcıyı`, 
-        `${prefix}yardım`
-    ];
-    
-    client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)], { type: 'LISTENING' });
-    setInterval(() => {
-        client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)], { type: 'LISTENING'});
-    }, 15000);
-    
-  
-      console.log ('_________________________________________');
-      console.log (`Kullanıcı İsmi     : ${client.user.username}`);
-      console.log (`Sunucular          : ${client.guilds.cache.size}`);
-      console.log (`Kullanıcılar       : ${client.users.cache.size}`);
-      console.log (`Prefix             : ${ayarlar.prefix}`);
-      console.log (`Durum              : Bot Çevrimiçi!`);
-      console.log ('_________________________________________');
-    
-    });
 
+  var actvs = [`Kardeşler ♡`, `Kardeşler ♡`];
 
-client.login(ayarlar.token);
+  client.user.setActivity(
+    actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)],
+    { type: "PLAYING" }
+  );
+  setInterval(() => {
+    client.user.setActivity(
+      actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)],
+      { type: "PLAYING" }
+    );
+  }, 15000);
+
+  console.log("_________________________________________");
+  console.log(`Kullanıcı İsmi     : ${client.user.username}`);
+  console.log(`Sunucular          : ${client.guilds.cache.size}`);
+  console.log(`Kullanıcılar       : ${client.users.cache.size}`);
+  console.log(`Prefix             : ${ayarlar.prefix}`);
+  console.log(`Durum              : Bot Çevrimiçi!`);
+  console.log("_________________________________________");
+});
+
+client.login(process.env.token);
