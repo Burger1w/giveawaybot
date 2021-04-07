@@ -4,6 +4,7 @@ const fs = require("fs");
 const moment = require("moment");
 const ayarlar = require("./ayarlar.json");
 require("./util/eventLoader")(client);
+require("./yanıtlama");
 client.ayarlar = ayarlar;
 var prefix = ayarlar.prefix;
 

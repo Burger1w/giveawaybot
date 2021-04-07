@@ -2,27 +2,23 @@ const Discord = require("discord.js");
 
 module.exports.run = async (client, message) => {
   const Bilal = new Discord.MessageEmbed()
-
     .setColor("RANDOM")
-
-    .setDescription(`**Pingim : \`${client.ws.ping}\`**`)
-
-    .setFooter("Code By Bilal Ömer");
+    .setTitle("Kardeşler Çekiliş 🎉")
+    .setDescription(
+      `**Selam ${message.author.username}**
+**Benim Komutlarım Bunlardır;**`
+    )
+    .setFooter(".d");
   message.inlineReply(Bilal);
 };
-
 module.exports.conf = {
   enabled: true,
-
   guildOnly: false,
-
-  aliases: ["Gecikme"]
+  aliases: ["help"]
 };
 
 module.exports.help = {
-  name: "ping",
-
+  name: "yardım",
   description: "",
-
   usage: ""
 };
