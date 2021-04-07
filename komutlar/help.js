@@ -5,16 +5,15 @@ module.exports.run = async (client, message) => {
     .setColor("RANDOM")
     .setTitle("Kardeşler Çekiliş 🎉")
     .setDescription(
-      `**Selam ${message.author.username}**
-**Benim Komutlarım Bunlardır;**
+      `**Selam ${message.author.username} Yardım Listeme Hoşgeldin.**
+      
+<:krdslr_mavi_ok:819555060295270471> **Çekiliş Başlatma Komutu = \`\!başlat [#Çekiliş_Kanalı] [Zaman] [Kazanacak_Sayı] [Ödül]\`**
 
-<:krdslr_mavi_ok:819555060295270471> **Çekiliş Başlatma Komutu = !başlat [#Çekiliş_Kanalı] [Zaman] [Kazanacak_Sayı] [Ödül]**
+<:krdslr_mavi_ok:819555060295270471> **Çekiliş Yenileme Komutu = \`\!yenile [Mesaj_ID]\`**
 
-<:krdslr_mavi_ok:819555060295270471>   **Çekiliş Yenileme Komutu = !yenile [Mesaj_ID]**
+<:krdslr_mavi_ok:819555060295270471> **Çekiliş Bitirme Komutu = \`\!bitir [Mesaj_ID]\`**
 
-**Çekiliş Bitirme Komutu = !bitir [Mesaj_ID]**
-
-**Ping/Gecikme Komutu = !ping**`
+<:krdslr_mavi_ok:819555060295270471> **Ping/Gecikme Komutu = \`\!ping\`**`
     )
     .setFooter(
       `Kardeşler Çekiliş | ${message.author.username} Tarafından İstendi.`
