@@ -6,9 +6,19 @@ module.exports.run = async (client, message) => {
     .setTitle("Kardeşler Çekiliş 🎉")
     .setDescription(
       `**Selam ${message.author.username}**
-**Benim Komutlarım Bunlardır;**`
+**Benim Komutlarım Bunlardır;**
+
+<:krdslr_mavi_ok:819555060295270471> **Çekiliş Başlatma Komutu = !başlat [#Çekiliş_Kanalı] [Zaman] [Kazanacak_Sayı] [Ödül]**
+
+<:krdslr_mavi_ok:819555060295270471>   **Çekiliş Yenileme Komutu = !yenile [Mesaj_ID]**
+
+**Çekiliş Bitirme Komutu = !bitir [Mesaj_ID]**
+
+**Ping/Gecikme Komutu = !ping**`
     )
-    .setFooter(".d");
+    .setFooter(
+      `Kardeşler Çekiliş | ${message.author.username} Tarafından İstendi.`
+    );
   message.inlineReply(Bilal);
 };
 module.exports.conf = {
