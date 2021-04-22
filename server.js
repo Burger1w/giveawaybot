@@ -89,7 +89,7 @@ client.unload = command => {
 client.on("ready", () => {
   // Oynuyor Kısmı
 
-  var actvs = [`Kardeşler ♡`, `Kardeşler ♡`];
+  var actvs = [`Vengaful ♡`, `Vengaful ♡`];
 
   client.user.setActivity(
     actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)],
