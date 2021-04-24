@@ -3,20 +3,20 @@ const Discord = require("discord.js");
 module.exports.run = async (client, message) => {
   const Bilal = new Discord.MessageEmbed()
     .setColor("RANDOM")
-    .setTitle("Kardeşler Çekiliş 🎉")
+    .setTitle("Vengaful Çekiliş 🎉")
     .setDescription(
       `**Selam ${message.author.username} Yardım Listeme Hoşgeldin.**
       
-<:krdslr_mavi_ok:819555060295270471> **Çekiliş Başlatma Komutu = \`\!başlat [#Çekiliş_Kanalı] [Zaman] [Kazanacak_Sayı] [Ödül]\`**
+» **Çekiliş Başlatma Komutu = \`\!başlat [#Çekiliş_Kanalı] [Zaman] [Kazanacak_Sayı] [Ödül]\`**
 
-<:krdslr_mavi_ok:819555060295270471> **Çekiliş Yenileme Komutu = \`\!yenile [Mesaj_ID]\`**
+» **Çekiliş Yenileme Komutu = \`\!yenile [Mesaj_ID]\`**
 
-<:krdslr_mavi_ok:819555060295270471> **Çekiliş Bitirme Komutu = \`\!bitir [Mesaj_ID]\`**
+» **Çekiliş Bitirme Komutu = \`\!bitir [Mesaj_ID]\`**
 
-<:krdslr_mavi_ok:819555060295270471> **Ping/Gecikme Komutu = \`\!ping\`**`
+» **Ping/Gecikme Komutu = \`\!ping\`**`
     )
     .setFooter(
-      `Kardeşler Çekiliş | ${message.author.username} Tarafından İstendi.`
+      `Vengaful Çekiliş | ${message.author.username} Tarafından İstendi.`
     );
   message.inlineReply(Bilal);
 };
