@@ -47,7 +47,7 @@ exports.run = async (client, message, args) => {
       inviteToParticipate: 'Çekilişe katılmak için "🎉" emojisine basınız!',
       winMessage:
         "🎊 Tebrikler, {winners} çekilişi kazandınız. İşte ödülünüz **{prize}**!",
-      embedFooter: "SAFE KODE ️️️️❤️ HAPPY",
+      embedFooter: "Vengaful",
       noWinner: "Geçersiz katılımlar yüzünden kimse kazanmadı!",
       hostedBy: "Çekiliş Başlatan: {user}",
       winners: "Kazanan(lar)",
@@ -68,7 +68,6 @@ exports.conf = {
   guildOnly: false,
   aliases: [],
   permLevel: 0
-  
 };
 exports.help = {
   name: "çekiliş"

@@ -1,13 +1,19 @@
 const fs = require("fs");
 
 module.exports = bot => {
-  console.log("┌──────────────────────────────────────────────────────────────┐")
+  console.log(
+    "┌──────────────────────────────────────────────────────────────┐"
+  );
   fs.readdir("./komutlar/", (err, files) => {
     if (err) console.error(err);
-    console.log(`│ ${files.length} komut yüklenecek.                                          │`);
+    console.log(
+      `│ ${files.length} komut yüklenecek.                                          │`
+    );
     files.forEach(f => {
       let props = require(`./komutlar/${f}`);
-      console.log(`│ Yüklenen komut: ${props.help.name}.                                     │`);
+      console.log(
+        `│ Yüklenen komut: ${props.help.name}.                                     │`
+      );
       bot.commands.set(props.help.name, props);
       props.conf.aliases.forEach(alias => {
         bot.aliases.set(alias, props.help.name);
@@ -52,3 +58,4 @@ module.exports = bot => {
     );
   });
 };
+;

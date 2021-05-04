@@ -3,11 +3,14 @@ const Discord = require("discord.js");
 const num = require("num-parse");
 
 exports.run = async (client, message, args) => {
-  if (!message.member.hasPermission("MANAGE_GUILD"))return message.channel.send("❌ | Sen çekiliş yapamazsın. `Sunucuyu Yönet` yetkisine sahip değilsin!");
+  if (!message.member.hasPermission("MANAGE_GUILD"))
+    return message.channel.send(
+      "❌ | Sen çekiliş yapamazsın. `Sunucuyu Yönet` yetkisine sahip değilsin!"
+    );
   let time = args[0];
   if (!time)
     return message.channel.send(
-      "❌ | Lütfen geçerli bir zaman girin. Örneğin: \"1s\", \"1m\", \"1d\" vb."
+      '❌ | Lütfen geçerli bir zaman girin. Örneğin: "1s", "1m", "1d" vb.'
     );
   if (ms(time) > ms("10d")) {
     return message.channel.send(
@@ -17,13 +20,11 @@ exports.run = async (client, message, args) => {
   let winners = args[1];
   if (!winners)
     return message.channel.send(
-      "❌ | Lütfen geçerli kazanan sayısı sağlayın. Örneğin: \"1k\", \"2k\""
+      '❌ | Lütfen geçerli kazanan sayısı sağlayın. Örneğin: "1k", "2k"'
     );
   winners = num(winners, 1);
   if (winners > 15)
-    return message.channel.send(
-      "❌ | Hediye kazananlar 15'ten az olmalıdır."
-    );
+    return message.channel.send("❌ | Hediye kazananlar 15'ten az olmalıdır.");
   let prize = args.slice(2).join(" ");
   if (!prize)
     return message.channel.send(
@@ -40,8 +41,9 @@ exports.run = async (client, message, args) => {
       giveawayEnded: "🎊 **Çekiliş Sona Erdi** 🎊",
       timeRemaining: "Kalan Süre **{duration}**!",
       inviteToParticipate: 'Çekilişe katılmak için "🎉" emojisine basınız!',
-      winMessage: "🎊 Tebrikler, {winners} çekilişi kazandınız. İşte ödülünüz **{prize}**!",
-      embedFooter: "SAFE KODE ️️️️❤️ HAPPY",
+      winMessage:
+        "🎊 Tebrikler, {winners} çekilişi kazandınız. Ödülünüz ${prize}",
+      embedFooter: "Vengaful",
       noWinner: "Geçersiz katılımlar yüzünden kimse kazanmadı!",
       hostedBy: "Çekiliş Başlatan: {user}",
       winners: "Kazanan(lar)",
