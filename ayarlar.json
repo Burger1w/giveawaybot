@@ -1,6 +1,5 @@
 {
-  "token": "TOKEN",
-  "prefix": "PREFİX",
+  "prefix": "!",
   "sahip": "SAHİP İD",
   "everyoneMention": true,
   "hostedBy": true
