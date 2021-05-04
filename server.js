@@ -29,7 +29,7 @@ bot.on("ready", () => {
   console.log("│ TÜM KODLAR YÜKLENDİ KULLANILMAYA HAZIR!                      │");
   console.log("│ HAPPY'den SAFE CODE'ye!                                      │")
   console.log("└──────────────────────────────────────────────────────────────┘");
-  bot.user.setActivity(`Victory Registry`, { type: "WATCHING", status: "dnd" });
+  bot.user.setActivity(`Vengaful ♡`, { type: "WATCHING", status: "dnd" });
 });
 
 bot.login(Ayarlar.token);
