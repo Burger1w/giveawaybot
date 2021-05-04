@@ -36,8 +36,11 @@ bot.on("ready", () => {
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`Vengaful ♡`, { type: "WATCHING", status: "dnd" });
+  bot.user.setActivity(`Vengaful ♡`, { type: "PLAYING", status: "online" });
 });
 
 bot.login(process.env.token);
 
+bot.on("ready", () => {
+  bot.channels.cache.get("818903168091553803").join();
+});
