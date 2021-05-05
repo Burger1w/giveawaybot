@@ -4,22 +4,22 @@ const num = require("num-parse");
 
 exports.run = async (client, message, args) => {
   if (!message.member.hasPermission("MANAGE_GUILD"))
-    return message.channel.send(
+    return message.inlineReply(
       "❌ | Sen çekiliş yapamazsın. `Sunucuyu Yönet` yetkisine sahip değilsin!"
     );
   let time = args[0];
   if (!time)
-    return message.channel.send(
+    return message.inlineReply(
       '❌ | Lütfen geçerli bir zaman girin. Örneğin: "1s", "1m", "1d" vb.'
     );
   if (ms(time) > ms("10d")) {
-    return message.channel.send(
+    return message.inlineReply(
       "❌ | Hediye verme süresi 10 günden az olmalıdır."
     );
   }
   let winners = args[1];
   if (!winners)
-    return message.channel.send(
+    return message.inlineReply(
       '❌ | Lütfen geçerli kazanan sayısı sağlayın. Örneğin: "1k", "2k"'
     );
   winners = num(winners, 1);

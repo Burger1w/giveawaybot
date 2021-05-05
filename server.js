@@ -6,6 +6,7 @@ const bot = new Discord.Client({ disableEveryone: true });
 require("moment-duration-format");
 require("./komut.js")(bot);
 require("./events.js")(bot);
+require("./yanıtlama");
 
 const newUsers = new Discord.Collection();
 bot.commands = new Discord.Collection();
