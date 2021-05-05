@@ -3,8 +3,13 @@ const Discord = require("discord.js");
 const num = require("num-parse");
 
 exports.run = async (client, message, args) => {
-  if (!message.member.hasPermission("MANAGE_GUILD"))return message.channel.send("❌ | Sen çekiliş yapamazsın. `Sunucuyu Yönet` yetkisine sahip değilsin!");
-  if (!args[0]) {return message.channel.send(":x: Geçerli bir mesaj ID'si belirtmelisiniz!");}
+  if (!message.member.hasPermission("MANAGE_GUILD"))
+    return message.inlineReply(
+      "❌ | Sen çekiliş yapamazsın. `Sunucuyu Yönet` yetkisine sahip değilsin!"
+    );
+  if (!args[0]) {
+    return message.inlineReply(":x: Geçerli bir mesaj ID'si belirtmelisiniz!");
+  }
 
   let giveaway =
     client.giveawaysManager.giveaways.find(g => g.prize === args.join(" ")) ||

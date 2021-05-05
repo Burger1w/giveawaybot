@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 const num = require("num-parse");
 
 exports.run = async (client, message, args) => {
-  message.channel.send(
+  message.inlineReply(
     new Discord.MessageEmbed()
       .setAuthor(client.user.username, client.user.avatarURL({ dynamic: true }))
       .setColor("abcdef")

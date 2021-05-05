@@ -24,10 +24,10 @@ exports.run = async (client, message, args) => {
     );
   winners = num(winners, 1);
   if (winners > 15)
-    return message.channel.send("❌ | Hediye kazananlar 15'ten az olmalıdır.");
+    return message.inlineReply("❌ | Hediye kazananlar 15'ten az olmalıdır.");
   let prize = args.slice(2).join(" ");
   if (!prize)
-    return message.channel.send(
+    return message.inlineReply(
       "❌ | Lütfen hediye için ödülü sağlayın. Örneğin: `!çekiliş 1d 2k Discord Nitro`."
     );
 
