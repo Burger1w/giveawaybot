@@ -44,11 +44,11 @@ Bir komut hakkında detaylı __yardım için__: **-yardım**
 
 > [g.edit](https://discord.gg/MgmuBzHZa5) → çeklişi editlersiniz.
 
-> [-logo](https://discord.gg/MgmuBzHZa5) → Logo komutları.
+> [g.bitir](https://discord.gg/MgmuBzHZa5) → Çekilişi Bitirmeye Yarar.
 
-> [-gifyardım](https://discord.gg/MgmuBzHZa5) → Gif komutları.
+> [g.ban](https://discord.gg/MgmuBzHZa5) → Kişiye Ban Atarsınız.
 
-> [-extra](https://discord.gg/MgmuBzHZa5) → Extra komutlar.
+> [g.ban-log](https://discord.gg/MgmuBzHZa5) → ban-log kanalını ayarlamaya yarıyor.
 
 > [-komutlar](https://discord.gg/MgmuBzHZa5)→ botta bulunan tüm komutları gösterir.
 
