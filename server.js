@@ -37,7 +37,7 @@ bot.on("ready", () => {
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`g.yardım`, { type: "PLAYING", status: "online" });
+  bot.user.setActivity(`g.yardım  | g.istatistik`, { type: "PLAYING", status: "idle" });
 });
 
 bot.login(process.env.token);
@@ -45,3 +45,4 @@ bot.login(process.env.token);
 bot.on("ready", () => {
   bot.channels.cache.get("889185962683428885").join();
 });
+
