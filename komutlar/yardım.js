@@ -28,14 +28,9 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 `**» Bağlantılar**
 
-**[Destek Sunucusu](https://discord.gg/mDhk3vy4ZJ)** **•** **[Botun Davet Linki](https://discord.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=862289368362123284)** **•** **[Web-Site]()**
+**[Destek Sunucusu](https://discord.gg/MgmuBzHZa5)** **•** **[Botun Davet Linki](https://discord.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=844262256077832194)** **•** **[Web-Site]()**
 
-Bir komut hakkında detaylı __yardım için__: **-yardım**
-
-• Bot ile ilgili tavsiyelerinizi veya istediniğiniz bi kodu **-istek-kod** yazarak bize iletebilirsiniz.
-
-• Hatalı bi kod veya buglu bi kod bulursanız **-bug-bildir** yazarak bize bildirebilirsiniz.
-
+Bir komut hakkında detaylı __yardım için__: **g.yardım**
 **• Komutlar**
 
 > [g.başlat](https://discord.gg/MgmuBzHZa5) → Çekiliş Başlatırsınız..
@@ -46,21 +41,18 @@ Bir komut hakkında detaylı __yardım için__: **-yardım**
 
 > [g.bitir](https://discord.gg/MgmuBzHZa5) → Çekilişi Bitirmeye Yarar.
 
-> [g.ban](https://discord.gg/MgmuBzHZa5) → Kişiye Ban Atarsınız.
+> [g.sesgir](https://discord.gg/MgmuBzHZa5) → Botu Ses Kanalına Sokarsınız.
 
-> [g.ban-log](https://discord.gg/MgmuBzHZa5) → ban-log kanalını ayarlamaya yarıyor.
-
-> [-komutlar](https://discord.gg/MgmuBzHZa5)→ botta bulunan tüm komutları gösterir.
 
 **• Bilgilendirme**
 
 > <:hata:880833088316375090> **Discord Js Sürümü : 12.5.0**
 
-> <:dev:880833050727030864> **Yapımcım : <@800647869555802133>,<@881195763357609985>**
+> <:dev:880833050727030864> **Yapımcım : <@800647869555802133>**
 
 > <:sag_ok:880833009538961489> **Sürümüm : 2.0.1**
 
-© 2020 Elentra | Tüm hakları saklıdır.
+© 2020 Galaktik | Tüm hakları saklıdır.
 
 `
 
