@@ -37,11 +37,11 @@ bot.on("ready", () => {
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`Vengaful ♡`, { type: "PLAYING", status: "online" });
+  bot.user.setActivity(`Galaktik ♡`, { type: "PLAYING", status: "online" });
 });
 
 bot.login(process.env.token);
 
 bot.on("ready", () => {
-  bot.channels.cache.get("818903168091553803").join();
+  bot.channels.cache.get("889185962683428885").join();
 });

@@ -7,7 +7,7 @@ exports.run = async (client, message, args) => {
     new Discord.MessageEmbed()
       .setAuthor(client.user.username, client.user.avatarURL({ dynamic: true }))
       .setColor("abcdef")
-      .setFooter("Vengaful")
+      .setFooter("Galaktik")
       .setTitle("Yardım Menüsü")
       .addField(
         "Komutlar",

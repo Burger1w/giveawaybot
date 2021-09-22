@@ -46,5 +46,5 @@ exports.conf = {
   permLevel: 0
 };
 exports.help = {
-  name: "yeniden"
+  name: "reroll"
 };
