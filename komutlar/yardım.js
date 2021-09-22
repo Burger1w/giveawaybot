@@ -43,6 +43,11 @@ Bir komut hakkında detaylı __yardım için__: **g.yardım**
 
 > [g.sesgir](https://discord.gg/MgmuBzHZa5) → Botu Ses Kanalına .
 
+> [g.ey / g.emojiyükle](https://discord.gg/MgmuBzHZa5) → Emoji Yüklersiniz .
+
+> [g.nuke](https://discord.gg/MgmuBzHZa5) → Kanala Nuke Atar .
+
+> [g.istatistik](https://discord.gg/MgmuBzHZa5) → Botun İstatistiklerine Bakarsınız .
 
 **• Bilgilendirme**
 

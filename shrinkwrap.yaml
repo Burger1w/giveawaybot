@@ -5,6 +5,7 @@ dependencies:
   moment: 2.29.1
   moment-duration-format: 2.3.2
   num-parse: 1.0.1
+  twemoji-parser: 13.1.0
 packages:
   /@discordjs/collection/0.1.6:
     dev: false
@@ -513,6 +514,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==
+  /twemoji-parser/13.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-AQOzLJpYlpWMy8n+0ATyKKZzWlZBJN+G0C+5lhX7Ftc2PeEVdUU/7ns2Pn2vVje26AIZ/OHwFoUbdv6YYD/wGg==
   /type-is/1.6.18:
     dependencies:
       media-typer: 0.3.0
@@ -570,3 +575,4 @@ specifiers:
   moment: ^2.29.1
   moment-duration-format: ^2.3.2
   num-parse: ^1.0.1
+  twemoji-parser: ^13.1.0
