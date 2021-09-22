@@ -9,7 +9,7 @@ exports.run = async (client, message, args) => {
     );
   let giveawayChannel = message.mentions.channels.first();
   if (!giveawayChannel) {
-    return message.inlineReply(":x: You have to mention a valid channel!");
+    return message.inlineReply(":x: Geçerli Bir Kanaldan Bahsetmelisin!");
   }
   let time = args[1];
   if (!time)

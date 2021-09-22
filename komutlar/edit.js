@@ -37,7 +37,7 @@ exports.run = async (client, message, args) => {
   let prize = args.slice(3).join(" ");
   if (!prize)
     return message.inlineReply(
-      "❌ | Lütfen hediye için ödülü sağlayın. Örneğin: `!çekiliş 1d 2k Discord Nitro`."
+      "❌ | Lütfen hediye için ödülü sağlayın. Örneğin: `g.çekiliş 1d 2k Discord Nitro`."
     );
 
   client.giveawaysManager
