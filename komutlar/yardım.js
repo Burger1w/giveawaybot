@@ -41,7 +41,7 @@ Bir komut hakkında detaylı __yardım için__: **g.yardım**
 
 > [g.bitir](https://discord.gg/MgmuBzHZa5) → Çekilişi Bitirmeye Yarar.
 
-> [g.sesgir](https://discord.gg/MgmuBzHZa5) → Botu Ses Kanalına Sokarsınız.
+> [g.sesgir](https://discord.gg/MgmuBzHZa5) → Botu Ses Kanalına .
 
 
 **• Bilgilendirme**

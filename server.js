@@ -37,7 +37,7 @@ bot.on("ready", () => {
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`Galaktik ♡`, { type: "PLAYING", status: "online" });
+  bot.user.setActivity(`g.yardım`, { type: "PLAYING", status: "online" });
 });
 
 bot.login(process.env.token);
