@@ -11,7 +11,7 @@ exports.run = async (client, message, args) => {
       .setTitle("Yardım Menüsü")
       .addField(
         "Komutlar",
-        "`!başlat`: Direk olduğunuz kanalda çekiliş başlatır.\n`!çekiliş`: Etiketlediğiniz kanalda çekiliş başlatır.\n`!yeniden`: Id'sini girdiğiniz çekiliş yeniden çekilir.\n`!ayarla`: Id'sini girdiğiniz çekilişi editlersiniz.\n`!bitir`: Id'sini girdiği çekiliş bitirilir.\n`!sil`: Id'sini girdiğiniz çekiliş silinir."
+        "`g.başlat`: Direk olduğunuz kanalda çekiliş başlatır.\n`g.çekiliş`: Etiketlediğiniz kanalda çekiliş başlatır.\n`!yeniden`: Id'sini girdiğiniz çekiliş yeniden çekilir.\n`!ayarla`: Id'sini girdiğiniz çekilişi editlersiniz.\n`!bitir`: Id'sini girdiği çekiliş bitirilir.\n`!sil`: Id'sini girdiğiniz çekiliş silinir."
       )
   );
 };
