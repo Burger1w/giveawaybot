@@ -28,7 +28,7 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 `**» Bağlantılar**
 
-**[Destek Sunucusu](https://discord.gg/MgmuBzHZa5)** **•** **[Botun Davet Linki](https://discord.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=844262256077832194)** **•** **[Web-Site]()**
+**[Destek Sunucusu](https://discord.gg/hBRHeTssX5)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=893570924299821066&permissions=8&scope=bot)** **•** **[Web-Site]()**
 
 Bir komut hakkında detaylı __yardım için__: **g.yardım**
 **• Komutlar**
@@ -51,11 +51,11 @@ Bir komut hakkında detaylı __yardım için__: **g.yardım**
 
 **• Bilgilendirme**
 
-> <:hata:880833088316375090> **Discord Js Sürümü : 12.5.0**
+> ✅ **Discord Js Sürümü : 12.5.0**
 
-> <:dev:880833050727030864> **Yapımcım : <@800647869555802133>**
+> ✅ **Yapımcım : <@598974473374400512>**
 
-> <:sag_ok:880833009538961489> **Sürümüm : 2.0.1**
+> ✅ **Sürümüm : 2.0.1**
 
 © 2020 Galaktik | Tüm hakları saklıdır.
 

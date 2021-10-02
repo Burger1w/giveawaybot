@@ -32,12 +32,12 @@ bot.on("ready", () => {
     "│ TÜM KODLAR YÜKLENDİ KULLANILMAYA HAZIR!                      │"
   );
   console.log(
-    "│ HAPPY'den SAFE CODE'ye!                                      │"
+    "│ Wasley 💖 Çekiliş!                                      │"
   );
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`g.yardım  | g.istatistik`, { type: "PLAYING", status: "idle" });
+  bot.user.setActivity(`Wasley 💖 Çekiliş`, { type: "PLAYING", status: "idle" });
 });
 
 bot.login(process.env.token);
