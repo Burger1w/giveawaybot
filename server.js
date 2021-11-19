@@ -32,12 +32,12 @@ bot.on("ready", () => {
     "│ TÜM KODLAR YÜKLENDİ KULLANILMAYA HAZIR!                      │"
   );
   console.log(
-    "│ Wasley 💖 Çekiliş!                                      │"
+    "│ BEDO 💖 Çekiliş!                                      │"
   );
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`Wasley 💖 Çekiliş`, { type: "PLAYING", status: "idle" });
+  bot.user.setActivity(`BEDO 💖 Çekiliş`, { type: "PLAYING", status: "idle" });
 });
 
 bot.login(process.env.token);
