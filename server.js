@@ -32,17 +32,17 @@ bot.on("ready", () => {
     "│ TÜM KODLAR YÜKLENDİ KULLANILMAYA HAZIR!                      │"
   );
   console.log(
-    "│ BEDO 💖 Çekiliş!                                      │"
+    "│ HAYLAZ 💖 Çekiliş!                                      │"
   );
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`BEDO 💖 Çekiliş`, { type: "PLAYING", status: "idle" });
+  bot.user.setActivity(`HAYLAZ 💖 Çekiliş`, { type: "PLAYING", status: "idle" });
 });
 
 bot.login(process.env.token);
 
 bot.on("ready", () => {
-  bot.channels.cache.get("889185962683428885").join();
+  bot.channels.cache.get("").join();
 });
 

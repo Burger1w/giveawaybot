@@ -20,7 +20,7 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 .setColor("RANDOM")
 
-.setTitle("  » Elentra  ")
+.setTitle("  » HAYLAZ  ")
 
 .setThumbnail("")
 
@@ -28,36 +28,36 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 `**» Bağlantılar**
 
-**[Destek Sunucusu](https://discord.gg/hBRHeTssX5)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=893570924299821066&permissions=8&scope=bot)** **•** **[Web-Site]()**
+**[Destek Sunucusu](https://discord.gg/yhdrZFkevJ)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=&permissions=8&scope=bot)** **•** **[Web-Site]()**
 
 Bir komut hakkında detaylı __yardım için__: **g.yardım**
 **• Komutlar**
 
-> [g.başlat](https://discord.gg/MgmuBzHZa5) → Çekiliş Başlatırsınız..
+> [g.başlat](https://discord.gg/yhdrZFkevJ) → Çekiliş Başlatırsınız..
 
-> [g.sil](https://discord.gg/MgmuBzHZa5) → Çekilişi İptal Edersiniz.
+> [g.sil](https://discord.gg/yhdrZFkevJ) → Çekilişi İptal Edersiniz.
 
-> [g.edit](https://discord.gg/MgmuBzHZa5) → çeklişi editlersiniz.
+> [g.edit](https://discord.gg/yhdrZFkevJ) → çeklişi editlersiniz.
 
-> [g.bitir](https://discord.gg/MgmuBzHZa5) → Çekilişi Bitirmeye Yarar.
+> [g.bitir](https://discord.gg/yhdrZFkevJ) → Çekilişi Bitirmeye Yarar.
 
-> [g.sesgir](https://discord.gg/MgmuBzHZa5) → Botu Ses Kanalına .
+> [g.sesgir](https://discord.gg/yhdrZFkevJ) → Botu Ses Kanalına .
 
-> [g.ey / g.emojiyükle](https://discord.gg/MgmuBzHZa5) → Emoji Yüklersiniz .
+> [g.ey / g.emojiyükle](https://discord.gg/yhdrZFkevJ) → Emoji Yüklersiniz .
 
-> [g.nuke](https://discord.gg/MgmuBzHZa5) → Kanala Nuke Atar .
+> [g.nuke](https://discord.gg/yhdrZFkevJ) → Kanala Nuke Atar .
 
-> [g.istatistik](https://discord.gg/MgmuBzHZa5) → Botun İstatistiklerine Bakarsınız .
+> [g.istatistik](https://discord.gg/yhdrZFkevJ) → Botun İstatistiklerine Bakarsınız .
 
 **• Bilgilendirme**
 
 > ✅ **Discord Js Sürümü : 12.5.0**
 
-> ✅ **Yapımcım : <@598974473374400512>**
+> ✅ **Yapımcım : <@905825401039912970>**
 
 > ✅ **Sürümüm : 2.0.1**
 
-© 2020 Galaktik | Tüm hakları saklıdır.
+ 
 
 `
 
@@ -65,7 +65,7 @@ Bir komut hakkında detaylı __yardım için__: **g.yardım**
 
     .setImage(
 
-      "https://media.discordapp.net/attachments/879336509419966564/886145751380549642/Ekran_Alnts.PNG?width=405&height=164"
+      "https://media.discordapp.net/attachments/608711485849337856/918910347019169863/Anime_PP_Gif_54.gif"
 
     );
 

@@ -8,7 +8,7 @@ message.channel.clone().then(knl => {
   message.channel.delete();
   const embed = new Discord.MessageEmbed()
   .setTitle('Bir kanal patladı!')
-.setImage('https://media1.giphy.com/media/oe33xf3B50fsc/giphy.gif')
+.setImage("https://cdn.discordapp.com/attachments/608711485849337856/918910290190557276/Anime_PP_Gif_71.gif")
 .setFooter(`Nuke atan: ${message.author.id}`)
 knl.send(embed)
 });
