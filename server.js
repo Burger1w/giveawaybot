@@ -32,12 +32,12 @@ bot.on("ready", () => {
     "│ TÜM KODLAR YÜKLENDİ KULLANILMAYA HAZIR!                      │"
   );
   console.log(
-    "│ HAYLAZ 💖 Çekiliş!                                      │"
+    "│ LAREX 💖 Çekiliş!                                      │"
   );
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`HAYLAZ 💖 Çekiliş`, { type: "PLAYING", status: "idle" });
+  bot.user.setActivity(`LAREX 💖 Çekiliş`, { type: "PLAYING", status: "dnd" });
 });
 
 bot.login(process.env.token);

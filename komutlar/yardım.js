@@ -33,27 +33,27 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 Bir komut hakkında detaylı __yardım için__: **g.yardım**
 **• Komutlar**
 
-> [g.başlat](https://discord.gg/yhdrZFkevJ) → Çekiliş Başlatırsınız..
+> [.başlat](https://discord.gg/yhdrZFkevJ) → Çekiliş Başlatırsınız..
 
-> [g.sil](https://discord.gg/yhdrZFkevJ) → Çekilişi İptal Edersiniz.
+> [.sil](https://discord.gg/yhdrZFkevJ) → Çekilişi İptal Edersiniz.
 
-> [g.edit](https://discord.gg/yhdrZFkevJ) → çeklişi editlersiniz.
+> [.edit](https://discord.gg/yhdrZFkevJ) → çeklişi editlersiniz.
 
-> [g.bitir](https://discord.gg/yhdrZFkevJ) → Çekilişi Bitirmeye Yarar.
+> [.bitir](https://discord.gg/yhdrZFkevJ) → Çekilişi Bitirmeye Yarar.
 
-> [g.sesgir](https://discord.gg/yhdrZFkevJ) → Botu Ses Kanalına .
+> [.sesgir](https://discord.gg/yhdrZFkevJ) → Botu Ses Kanalına .
 
-> [g.ey / g.emojiyükle](https://discord.gg/yhdrZFkevJ) → Emoji Yüklersiniz .
+> [.ey / g.emojiyükle](https://discord.gg/yhdrZFkevJ) → Emoji Yüklersiniz .
 
-> [g.nuke](https://discord.gg/yhdrZFkevJ) → Kanala Nuke Atar .
+> [.nuke](https://discord.gg/yhdrZFkevJ) → Kanala Nuke Atar .
 
-> [g.istatistik](https://discord.gg/yhdrZFkevJ) → Botun İstatistiklerine Bakarsınız .
+> [.istatistik](https://discord.gg/yhdrZFkevJ) → Botun İstatistiklerine Bakarsınız .
 
 **• Bilgilendirme**
 
 > ✅ **Discord Js Sürümü : 12.5.0**
 
-> ✅ **Yapımcım : <@905825401039912970>**
+> ✅ **Yapımcım : <@678232629211824179>**
 
 > ✅ **Sürümüm : 2.0.1**
 
@@ -65,7 +65,7 @@ Bir komut hakkında detaylı __yardım için__: **g.yardım**
 
     .setImage(
 
-      "https://media.discordapp.net/attachments/608711485849337856/918910347019169863/Anime_PP_Gif_54.gif"
+      "https://media.discordapp.net/attachments/928148494257123348/928172975541321728/standard.png"
 
     );
 
