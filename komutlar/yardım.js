@@ -20,7 +20,7 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 .setColor("RANDOM")
 
-.setTitle("  » HAYLAZ  ")
+.setTitle("  » LAREX  ")
 
 .setThumbnail("")
 
@@ -28,26 +28,26 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 `**» Bağlantılar**
 
-**[Destek Sunucusu](https://discord.gg/yhdrZFkevJ)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=&permissions=8&scope=bot)** **•** **[Web-Site]()**
+**[Destek Sunucusu](https://discord.gg/j9yX22xYsJ)** **•** **[Botun Davet Linki](https://discord.com/oauth2/authorize?client_id=928163266084077628&scope=bot&permissions=8)** **•** **[Web-Site]()**
 
-Bir komut hakkında detaylı __yardım için__: **g.yardım**
+Bir komut hakkında detaylı __yardım için__: **.yardım**
 **• Komutlar**
 
-> [.başlat](https://discord.gg/yhdrZFkevJ) → Çekiliş Başlatırsınız..
+> [.başlat](https://discord.gg/j9yX22xYsJ) → Çekiliş Başlatırsınız..
 
-> [.sil](https://discord.gg/yhdrZFkevJ) → Çekilişi İptal Edersiniz.
+> [.sil](https://discord.gg/j9yX22xYsJ) → Çekilişi İptal Edersiniz.
 
-> [.edit](https://discord.gg/yhdrZFkevJ) → çeklişi editlersiniz.
+> [.edit](https://discord.gg/https://discord.gg/j9yX22xYsJ) → çeklişi editlersiniz.
 
-> [.bitir](https://discord.gg/yhdrZFkevJ) → Çekilişi Bitirmeye Yarar.
+> [.bitir](https://discord.gg/j9yX22xYsJ) → Çekilişi Bitirmeye Yarar.
 
-> [.sesgir](https://discord.gg/yhdrZFkevJ) → Botu Ses Kanalına .
+> [.sesgir](https://discord.gg/j9yX22xYsJ) → Botu Ses Kanalına .
 
-> [.ey / g.emojiyükle](https://discord.gg/yhdrZFkevJ) → Emoji Yüklersiniz .
+> [.ey / .emojiyükle](https://discord.gg/j9yX22xYsJ) → Emoji Yüklersiniz .
 
-> [.nuke](https://discord.gg/yhdrZFkevJ) → Kanala Nuke Atar .
+> [.nuke](https://discord.gg/j9yX22xYsJ) → Kanala Nuke Atar .
 
-> [.istatistik](https://discord.gg/yhdrZFkevJ) → Botun İstatistiklerine Bakarsınız .
+> [.istatistik](https://discord.gg/j9yX22xYsJ) → Botun İstatistiklerine Bakarsınız .
 
 **• Bilgilendirme**
 
