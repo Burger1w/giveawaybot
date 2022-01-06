@@ -65,7 +65,7 @@ Bir komut hakkında detaylı __yardım için__: **.yardım**
 
     .setImage(
 
-      "https://media.discordapp.net/attachments/928148494257123348/928172975541321728/standard.png"
+      "https://media.discordapp.net/attachments/678242754479915021/928791919297970176/standard_1.png"
 
     );
 

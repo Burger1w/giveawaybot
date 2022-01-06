@@ -37,7 +37,7 @@ bot.on("ready", () => {
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`LAREX 💖 Çekiliş`, { type: "PLAYING", status: "dnd" });
+  bot.user.setActivity(`.yardım | .i`, { type: "PLAYING", status: "dnd" });
 });
 
 bot.login(process.env.token);
