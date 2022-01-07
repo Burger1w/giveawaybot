@@ -45,13 +45,3 @@ bot.login(process.env.token);
 bot.on("ready", () => {
   bot.channels.cache.get("").join();
 });
-
-const express = require('express');
-const app = express();
-const port = 3000;
-
-app.get('/', (req, res) => res.send('Nays Uptime & FastUptime'));
-
-app.listen(port, () =>
-    console.log(`Port Açıldı! ${port}`)
-); 
