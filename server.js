@@ -43,5 +43,5 @@ bot.on("ready", () => {
 bot.login(process.env.token);
 
 bot.on("ready", () => {
-  bot.channels.cache.get("").join();
+bot.channels.cache.get("").join();
 });
