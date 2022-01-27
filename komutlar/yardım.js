@@ -28,26 +28,19 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 `**» Bağlantılar**
 
-**[Destek Sunucusu](https://discord.gg/j9yX22xYsJ)** **•** **[Botun Davet Linki](https://discord.com/oauth2/authorize?client_id=928163266084077628&scope=bot&permissions=8)** **•** **[Web-Site]()**
+**[Destek Sunucusu](https://discord.gg/hVQ73UfzWd)** **•** **[Botun Davet Linki](OTM2MTk2OTU0NTc1MjA4NDU5.YfJrWw.vhAqXLprJI_WN6SUbYFYdfcvlyg)**
 
-Bir komut hakkında detaylı __yardım için__: **.yardım**
-**• Komutlar**
+**• Komutlar •**
 
-> [.başlat](https://discord.gg/j9yX22xYsJ) → Çekiliş Başlatırsınız..
+> [.başlat](https://discord.gg/hVQ73UfzWd) → Çekiliş Başlatırsınız..
 
-> [.sil](https://discord.gg/j9yX22xYsJ) → Çekilişi İptal Edersiniz.
+> [.bitir](https://discord.gg/hVQ73UfzWd) → Çekilişi Bitirirsiniz.
 
-> [.edit](https://discord.gg/https://discord.gg/j9yX22xYsJ) → çeklişi editlersiniz.
+> [.edit](https://discord.gg/hVQ73UfzWd) → Çekilişi Düzenlersiniz.
 
-> [.bitir](https://discord.gg/j9yX22xYsJ) → Çekilişi Bitirmeye Yarar.
+> [.istatistik](https://discord.gg/hVQ73UfzWd) → Botun .
 
-> [.sesgir](https://discord.gg/j9yX22xYsJ) → Botu Ses Kanalına .
-
-> [.ey / .emojiyükle](https://discord.gg/j9yX22xYsJ) → Emoji Yüklersiniz .
-
-> [.nuke](https://discord.gg/j9yX22xYsJ) → Kanala Nuke Atar .
-
-> [.istatistik](https://discord.gg/j9yX22xYsJ) → Botun İstatistiklerine Bakarsınız .
+> [.istatistik](https://discord.gg/hVQ73UfzWd) → Botun İstatistiklerine Bakarsınız .
 
 **• Bilgilendirme**
 
