@@ -20,7 +20,7 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 .setColor("RANDOM")
 
-.setTitle("  » GiveawayBot  ")
+.setTitle("  » Light Giveaway  ")
 
 .setThumbnail("")
 
