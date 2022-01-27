@@ -28,7 +28,7 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 `**» Bağlantılar**
 
-**[Destek Sunucusu](https://discord.gg/hVQ73UfzWd)** **•** **[Botun Davet Linki](OTM2MTk2OTU0NTc1MjA4NDU5.YfJrWw.vhAqXLprJI_WN6SUbYFYdfcvlyg)**
+**[Destek Sunucusu](https://discord.gg/hVQ73UfzWd)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=936196954575208459&permissions=8&scope=bot)**
 
 **• Çekiliş Komutları •**
 
