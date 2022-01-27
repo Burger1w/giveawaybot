@@ -30,7 +30,7 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 **[Destek Sunucusu](https://discord.gg/hVQ73UfzWd)** **•** **[Botun Davet Linki](OTM2MTk2OTU0NTc1MjA4NDU5.YfJrWw.vhAqXLprJI_WN6SUbYFYdfcvlyg)**
 
-**• Komutlar •**
+**• Çekiliş Komutları •**
 
 > [.başlat](https://discord.gg/hVQ73UfzWd) → Çekiliş Başlatırsınız..
 
@@ -38,18 +38,18 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 > [.edit](https://discord.gg/hVQ73UfzWd) → Çekilişi Düzenlersiniz.
 
-> [.istatistik](https://discord.gg/hVQ73UfzWd) → Botun .
+> [.reroll](https://discord.gg/hVQ73UfzWd) → Çekilişteki Kazananları Tekrar Çekersiniz.
 
-> [.istatistik](https://discord.gg/hVQ73UfzWd) → Botun İstatistiklerine Bakarsınız .
+> [.sil](https://discord.gg/hVQ73UfzWd) → Çekilişi Silersiniz.
 
-**• Bilgilendirme**
+**• Genel Komutlar •**
 
-> ✅ **Discord Js Sürümü : 12.5.0**
+> [.istatistik](https://discord.gg/hVQ73UfzWd) → Botun İstatiklerini Görüntülersiniz.
 
-> ✅ **Yapımcım : <@678232629211824179>**
+> [.ping](https://discord.gg/hVQ73UfzWd) → Botun Gecikme Süresini Görüntülersiniz.
 
-> ✅ **Sürümüm : 2.0.1**
 
+✅ **» Yapımcım : <@920772525590458388>**
  
 
 `
@@ -58,7 +58,7 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
     .setImage(
 
-      "https://media.discordapp.net/attachments/678242754479915021/928791919297970176/standard_1.png"
+      "https://cdn.discordapp.com/attachments/927908551735775293/936233702520922162/standard.gif"
 
     );
 
@@ -86,6 +86,6 @@ exports.conf = {
 
     description: 'Botun Komut Listesini Gösterir!',
 
-    usage: '-yardım'
+    usage: '.yardım'
 
 };
