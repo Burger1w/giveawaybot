@@ -37,7 +37,7 @@ bot.on("ready", () => {
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`.yardım | .i`, { type: "PLAYING", status: "online" });
+  bot.user.setActivity(`.yardım Çekiliş Komutları Erasty`, { type: "PLAYING", status: "online" });
 });
 
 bot.login(process.env.token);

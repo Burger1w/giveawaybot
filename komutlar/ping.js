@@ -11,7 +11,7 @@ exports.run = async (client ,message, args) =>{
     return message.author.send(ozelmesajuyari); }
   
   const Crewembed = new Discord.MessageEmbed()
-  .setTitle("<a:ayrlar:910246441585348648> Pingim!")
+  .setTitle("**Pingim**")
   .setColor("BLACK")
   .setDescription(`${client.ws.ping} ms`)
   message.channel.send(Crewembed)
