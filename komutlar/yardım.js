@@ -20,47 +20,43 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 .setColor("RANDOM")
 
-.setTitle("  » Light Giveaway  ")
+.setTitle("  » Erasty Giveaway  ")
 
 .setThumbnail("")
 
 .setDescription(
 
-`**» Bağlantılar**
+`**.başlat** : Çekiliş Başlatırsınız..
 
-**[Destek Sunucusu](https://discord.gg/hVQ73UfzWd)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=936196954575208459&permissions=8&scope=bot)**
+**.bitir** : Çekilişi Bitirirsiniz.
 
-**• Çekiliş Komutları •**
+**.edit** : Çekilişi Düzenlersiniz.
 
-> [.başlat](https://discord.gg/hVQ73UfzWd) → Çekiliş Başlatırsınız..
+**.reroll** : Çekilişteki Kazananları Tekrar Çekersiniz.
 
-> [.bitir](https://discord.gg/hVQ73UfzWd) → Çekilişi Bitirirsiniz.
+**.sil** : Çekilişi Silersiniz.
 
-> [.edit](https://discord.gg/hVQ73UfzWd) → Çekilişi Düzenlersiniz.
+• Genel Komutlar •
 
-> [.reroll](https://discord.gg/hVQ73UfzWd) → Çekilişteki Kazananları Tekrar Çekersiniz.
+**.istatistik** : Botun İstatiklerini Görüntülersiniz.
 
-> [.sil](https://discord.gg/hVQ73UfzWd) → Çekilişi Silersiniz.
+**.ping** : Botun Gecikme Süresini Görüntülersiniz.
 
-**• Genel Komutlar •**
-
-> [.istatistik](https://discord.gg/hVQ73UfzWd) → Botun İstatiklerini Görüntülersiniz.
-
-> [.ping](https://discord.gg/hVQ73UfzWd) → Botun Gecikme Süresini Görüntülersiniz.
-
-
-✅ **» Yapımcım : <@920772525590458388>**
  
 
 `
 
 )
 
+   
+
     .setImage(
 
-      "https://cdn.discordapp.com/attachments/927908551735775293/936233702520922162/standard.gif"
+      ""
 
     );
+
+   
 
 return message.channel.send(EmbedCrewCode)
 
