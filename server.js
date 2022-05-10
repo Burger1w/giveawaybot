@@ -32,12 +32,12 @@ bot.on("ready", () => {
     "│ TÜM KODLAR YÜKLENDİ KULLANILMAYA HAZIR!                      │"
   );
   console.log(
-    "│ Erasty 💖 Çekiliş!                                      │"
+    "│ ÇEKİLİŞ BOT 💖 Çekiliş!                                      │"
   );
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`.yardım Çekiliş Komutları Erasty`, { type: "PLAYING", status: "online" });
+  bot.user.setActivity(`.yardım Çekiliş Komutları ÇEKİLİŞ BOT  `, { type: "PLAYING", status: "online" });
 });
 
 bot.login(process.env.token);

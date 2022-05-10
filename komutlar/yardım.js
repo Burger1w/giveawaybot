@@ -20,7 +20,7 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 
 .setColor("RANDOM")
 
-.setTitle("  » Erasty Giveaway  ")
+.setTitle("  » Çekiliş bo Giveaway  ")
 
 .setThumbnail("")
 
