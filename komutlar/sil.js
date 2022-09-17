@@ -5,11 +5,11 @@ const num = require("num-parse");
 exports.run = async (client, message, args) => {
   if (!message.member.hasPermission("MANAGE_GUILD"))
     return message.inlineReply(
-      "> <a:yanlss:1008733112592769024> | **Sen çekiliş yapamazsın. `Sunucuyu Yönet` yetkisine sahip değilsin!**"
+      "> <a:yanlss:1008733112592769024> **Sen çekiliş yapamazsın. `Sunucuyu Yönet` yetkisine sahip değilsin!**"
     );
   let id = args[0];
   if (!id)
-    return message.inlineReply("> <a:yanlss:1008733112592769024> | **Geçerli bir mesaj** *ID'si* **belirtmelisiniz!**");
+    return message.inlineReply("> <a:yanlss:1008733112592769024> **Geçerli bir mesaj** *ID'si* **belirtmelisiniz!**");
   let hasGiveaway =
     client.giveawaysManager.giveaways.find(g => g.prize === args.join(" ")) ||
     client.giveawaysManager.giveaways.find(g => g.messageID === args[0]);

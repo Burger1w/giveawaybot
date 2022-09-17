@@ -5,7 +5,7 @@ const num = require("num-parse");
 exports.run = async (client, message, args) => {
   if (!message.member.hasPermission("MANAGE_GUILD"))
     return message.inlineReply(
-      "> <a:yanlss:1008733112592769024> | **Sen çekiliş yapamazsın. `Sunucuyu Yönet` yetkisine sahip değilsin!**"
+      "> <a:yanlss:1008733112592769024> **Sen çekiliş yapamazsın. `Sunucuyu Yönet` yetkisine sahip değilsin!**"
     );
   if (!args[0]) {
     return message.inlineReply("> <a:yanlss:1008733112592769024> **Geçerli bir mesaj** *ID'si* **belirtmelisiniz!**");
