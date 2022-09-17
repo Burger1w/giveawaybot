@@ -27,21 +27,20 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 **<:45:1007979694131515482> Sahib:** <@631165648520609823>
 **<:onays:1016686884098932807> m!oyver** *Yapıp Bize Destek Olabilirsiniz*
 
-**.başlat** : Çekiliş Başlatırsınız..
+<:thumbnail:1020668547208331274> **Çekiliş Komutları** <:thumbnail:1020668547208331274>
 
-**.bitir** : Çekilişi Bitirirsiniz.
+<:thumbnail:1020668547208331274> **m!başlat
+<:thumbnail:1020668547208331274> **m!bitir
+<:thumbnail:1020668547208331274> **m!reroll
+<:thumbnail:1020668547208331274> **m!edit
+<:thumbnail:1020668547208331274> **m!sil
 
-**.edit** : Çekilişi Düzenlersiniz.
+<:hediya:1020668597892288542> **Genel Komutlar** <:hediya:1020668597892288542>
 
-**.reroll** : Çekilişteki Kazananları Tekrar Çekersiniz.
-
-**.sil** : Çekilişi Silersiniz.
-
-• Genel Komutlar •
-
-**.istatistik** : Botun İstatiklerini Görüntülersiniz.
-
-**.ping** : Botun Gecikme Süresini Görüntülersiniz.
+<:hediya:1020668597892288542>
+<:hediya:1020668597892288542>
+<:hediya:1020668597892288542>
+<:hediya:1020668597892288542>
 
 **<a:583021641747923145:1012336321471189014> Bağlantılar**
 **[Botu Davet Et](https://discord.com/oauth2/authorize?client_id=893238888179580958&scope=bot&permissions=805314622)**
