@@ -37,7 +37,7 @@ bot.on("ready", () => {
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`m!help, Çekiliş BOT`, { type: "PLAYING", status: "idle" });
+  bot.user.setActivity(`m!help, Çekiliş BOT`, { type: "PLAYING", status: "dnd" });
 });
 
 bot.login(process.env.token);

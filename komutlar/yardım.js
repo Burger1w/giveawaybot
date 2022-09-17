@@ -28,7 +28,6 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 **<:onays:1016686884098932807> m!oyver** *Komutunu Kullanıp Bize Destek Olabilirsiniz*
 
 **Çekiliş Komutları**
-
 <:thumbnail:1020668547208331274> **m!başlat** - *Çekilişi Başlatır.*
 <:thumbnail:1020668547208331274> **m!bitir** - *Çekilişi Sonlandırır.*
 <:thumbnail:1020668547208331274> **m!reroll** - *Yeni Kazanan Kişiyi Tekrar Seçer.*
@@ -36,7 +35,6 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 <:thumbnail:1020668547208331274> **m!sil** - *Çekilişi Siler.*
 
 **Genel Komutlar**
-
 <:1009095264398753822:1012341965884489831> **m!ping** - *Botun Ping Verisini Gösterir.*
 <a:583014055443169301:1012334678126112850> **m!istatistik** - *Bot İstatistik Verileri.*
 
