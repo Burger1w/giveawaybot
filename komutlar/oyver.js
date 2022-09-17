@@ -21,7 +21,8 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 .setColor("#6767e0")
 .setTitle("Giveaway Oy Ver")
 .setThumbnail('https://media.discordapp.net/attachments/1012351091096178829/1020666747780608062/thumbnail.png?width=402&height=402')
-.setDescription(``)
+.setDescription(`**Botumuza Oy Vermek İçin [Buraya](https://top.gg/bot/893238888179580958/vote) Tıklayarak Oy Verebilirsiniz, Not: Verenler Candır.**`)
+.setFooter("Mavera Oy Ver")
 return message.channel.send(EmbedCrewCode)
 
 .then; 
@@ -42,7 +43,7 @@ exports.conf = {
 
   exports.help = {
 
-    name: 'oyver', 
+    name: 'vote', 
 
     description: 'Botun Komut Listesini Gösterir!',
 

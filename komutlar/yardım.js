@@ -25,7 +25,7 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 .setDescription(`
 **<a:586273537677983774:1012334694907531356> prefix:** *m!*
 **<:45:1007979694131515482> Sahib:** <@847596022020309013>
-**<:onays:1016686884098932807> m!oyver** *Komutunu Kullanıp Bize Destek Olabilirsiniz*
+**<:onays:1016686884098932807> m!vote** *Komutunu Kullanıp Bize Destek Olabilirsiniz*
 
 **Çekiliş Komutları**
 <:thumbnail:1020668547208331274> **m!başlat** - *Çekilişi Başlatır.*
@@ -74,7 +74,7 @@ exports.conf = {
 
   exports.help = {
 
-    name: 'yardım', 
+    name: 'help', 
 
     description: 'Botun Komut Listesini Gösterir!',
 
