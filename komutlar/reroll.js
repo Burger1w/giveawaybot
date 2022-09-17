@@ -24,7 +24,6 @@ exports.run = async (client, message, args) => {
   client.giveawaysManager
     .reroll(giveaway.messageID)
     .then(() => {
-      message.channel.send("Giveaway yenilendi!");
     })
     .catch(e => {
       if (
