@@ -18,34 +18,32 @@ exports.run = (client, message) => {
 
 const EmbedCrewCode = new Discord.MessageEmbed()
 
-.setColor("RANDOM")
+.setColor("#6767e0")
 .setTitle("Mavera Çekiliş Giveaway")
-.setThumbnail('https://media.discordapp.net/attachments/1012351091096178829/1016819881288671365/9181779763a1ae54d1fe1266fa0d391d.png?width=346&height=346')
+.setThumbnail('https://media.discordapp.net/attachments/1012351091096178829/1020666747780608062/thumbnail.png?width=402&height=402')
 .setImage("https://media.discordapp.net/attachments/1012351091096178829/1020666747780608062/thumbnail.png?width=402&height=402")
 .setDescription(`
 **<a:586273537677983774:1012334694907531356> prefix:** *m!*
 **<:45:1007979694131515482> Sahib:** <@631165648520609823>
-**<:onays:1016686884098932807> m!oyver** *Yapıp Bize Destek Olabilirsiniz*
+**<:onays:1016686884098932807> m!oyver** *Komutunu Kullanıp Bize Destek Olabilirsiniz*
 
-<:thumbnail:1020668547208331274> **Çekiliş Komutları** <:thumbnail:1020668547208331274>
+<:hediya:1020668597892288542> **Çekiliş Komutları** <:hediya:1020668597892288542>
 
-<:thumbnail:1020668547208331274> **m!başlat
-<:thumbnail:1020668547208331274> **m!bitir
-<:thumbnail:1020668547208331274> **m!reroll
-<:thumbnail:1020668547208331274> **m!edit
-<:thumbnail:1020668547208331274> **m!sil
+<:thumbnail:1020668547208331274> **m!başlat** - *Çekilişi Başlatır.*
+<:thumbnail:1020668547208331274> **m!bitir** - *Çekilişi Sonlandırır.*
+<:thumbnail:1020668547208331274> **m!reroll** - *Yeni Kazanan Kişiyi Tekrar Seçer.*
+<:thumbnail:1020668547208331274> **m!edit** - *Çekilişi Düzenler.*
+<:thumbnail:1020668547208331274> **m!sil** - *Çekilişi Siler.*
 
 <:hediya:1020668597892288542> **Genel Komutlar** <:hediya:1020668597892288542>
 
-<:hediya:1020668597892288542>
-<:hediya:1020668597892288542>
-<:hediya:1020668597892288542>
-<:hediya:1020668597892288542>
+<:thumbnail:1020668547208331274> **m!ping** - *Botun Ping Verisini Gösterir.*
+<:thumbnail:1020668547208331274> **m!istatistik** - *Bot İstatistik Verileri.*
 
 **<a:583021641747923145:1012336321471189014> Bağlantılar**
-**[Botu Davet Et](https://discord.com/oauth2/authorize?client_id=893238888179580958&scope=bot&permissions=805314622)**
-**[Destek Sunucusu](https://discord.gg/ZyQWrgKg66)**
-**[Uptime Ekle](https://discord.gg/3Y88f3kyJe)**
+[Botu Davet Et](https://discord.com/oauth2/authorize?client_id=893238888179580958&scope=bot&permissions=805314622)
+[Destek Sunucusu](https://discord.gg/ZyQWrgKg66)
+[Uptime Ekle](https://discord.gg/3Y88f3kyJe)
 `)
 
    
