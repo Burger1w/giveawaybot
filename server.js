@@ -37,11 +37,7 @@ bot.on("ready", () => {
   console.log(
     "└──────────────────────────────────────────────────────────────┘"
   );
-  bot.user.setActivity(`.yardım Çekiliş Komutları ÇEKİLİŞ BOT  `, { type: "PLAYING", status: "online" });
+  bot.user.setActivity(`m!help, Çekiliş BOT`, { type: "PLAYING", status: "idle" });
 });
 
 bot.login(process.env.token);
-
-bot.on("ready", () => {
-bot.channels.cache.get("").join();
-});
