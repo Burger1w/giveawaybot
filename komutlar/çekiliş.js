@@ -5,34 +5,34 @@ const num = require("num-parse");
 exports.run = async (client, message, args) => {
   if (!message.member.hasPermission("ADMINISTRATOR"))
     return message.inlineReply(
-      "❌ | Sen çekiliş yapamazsın. `Administrator` yetkisine sahip değilsin!"
+      "> <a:yanlss:1008733112592769024> | Sen çekiliş yapamazsın. `Administrator` yetkisine sahip değilsin!"
     );
   let giveawayChannel = message.mentions.channels.first();
   if (!giveawayChannel) {
-    return message.inlineReply(":x: Geçerli Bir Kanaldan Bahsetmelisin!");
+    return message.inlineReply("> <a:yanlss:1008733112592769024> Geçerli Bir Kanaldan Bahsetmelisin!");
   }
   let time = args[1];
   if (!time)
     return message.inlineReply(
-      '❌ | Lütfen geçerli bir zaman girin. Örneğin: "1s", "1m", "1d" vb.'
+      '> <a:yanlss:1008733112592769024> | Lütfen geçerli bir zaman girin. Örneğin: "1s", "1m", "1d" vb.'
     );
   if (ms(time) > ms("10d")) {
     return message.inlineReply(
-      "❌ | Hediye verme süresi 10 günden az olmalıdır."
+      "> <a:yanlss:1008733112592769024> | Hediye verme süresi 10 günden az olmalıdır."
     );
   }
   let winners = args[2];
   if (!winners)
     return message.inlineReply(
-      '❌ | Lütfen geçerli kazanan sayısı sağlayın. Örneğin: "1k", "2k"'
+      '> <a:yanlss:1008733112592769024> | Lütfen geçerli kazanan sayısı sağlayın. Örneğin: "1k", "2k"'
     );
   winners = num(winners, 1);
   if (winners > 15)
-    return message.inlineReply("❌ | Hediyeyi kazananlar 15'ten az olmalıdır.");
+    return message.inlineReply("> <a:yanlss:1008733112592769024> | Hediyeyi kazananlar 15'ten az olmalıdır.");
   let prize = args.slice(3).join(" ");
   if (!prize)
     return message.inlineReply(
-      "❌ | Lütfen hediye için ödülü sağlayın. Örneğin: `.çekiliş 1d 2k Discord Nitro`."
+      "> <a:yanlss:1008733112592769024> | Lütfen hediye için ödülü sağlayın. Örneğin: `.çekiliş 1d 2k Discord Nitro`."
     );
 
   client.giveawaysManager.start(giveawayChannel, {
@@ -47,10 +47,10 @@ exports.run = async (client, message, args) => {
       inviteToParticipate: 'Çekilişe katılmak için "🎉" emojisine basınız!',
       winMessage:
         "🎊 Tebrikler, {winners} çekilişi kazandınız. İşte ödülünüz **{prize}**!",
-      embedFooter: "Vengaful",
+      embedFooter: "Giveaway",
       noWinner: "Geçersiz katılımlar yüzünden kimse kazanmadı!",
       hostedBy: "Çekiliş Başlatan: {user}",
-      winners: "Kazanan(lar)",
+      winners: "Kazananlar",
       endedAt: "Bitti",
       units: {
         seconds: "saniye",

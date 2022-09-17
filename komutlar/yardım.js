@@ -24,10 +24,10 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 .setImage("https://media.discordapp.net/attachments/1012351091096178829/1020666747780608062/thumbnail.png?width=402&height=402")
 .setDescription(`
 **<a:586273537677983774:1012334694907531356> prefix:** *m!*
-**<:45:1007979694131515482> Sahib:** <@631165648520609823>
+**<:45:1007979694131515482> Sahib:** <@847596022020309013>
 **<:onays:1016686884098932807> m!oyver** *Komutunu Kullanıp Bize Destek Olabilirsiniz*
 
-<:hediya:1020668597892288542> **Çekiliş Komutları** <:hediya:1020668597892288542>
+**Çekiliş Komutları**
 
 <:thumbnail:1020668547208331274> **m!başlat** - *Çekilişi Başlatır.*
 <:thumbnail:1020668547208331274> **m!bitir** - *Çekilişi Sonlandırır.*
@@ -35,10 +35,10 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 <:thumbnail:1020668547208331274> **m!edit** - *Çekilişi Düzenler.*
 <:thumbnail:1020668547208331274> **m!sil** - *Çekilişi Siler.*
 
-<:hediya:1020668597892288542> **Genel Komutlar** <:hediya:1020668597892288542>
+**Genel Komutlar**
 
-<:thumbnail:1020668547208331274> **m!ping** - *Botun Ping Verisini Gösterir.*
-<:thumbnail:1020668547208331274> **m!istatistik** - *Bot İstatistik Verileri.*
+<:1009095264398753822:1012341965884489831> **m!ping** - *Botun Ping Verisini Gösterir.*
+<a:583014055443169301:1012334678126112850> **m!istatistik** - *Bot İstatistik Verileri.*
 
 **<a:583021641747923145:1012336321471189014> Bağlantılar**
 [Botu Davet Et](https://discord.com/oauth2/authorize?client_id=893238888179580958&scope=bot&permissions=805314622)

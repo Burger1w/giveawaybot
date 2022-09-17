@@ -12,8 +12,8 @@ exports.run = async (client ,message, args) =>{
   
   const Crewembed = new Discord.MessageEmbed()
   .setTitle("**Pingim**")
-  .setColor("BLACK")
-  .setDescription(`${client.ws.ping} ms`)
+  .setColor("#6767e0")
+  .setDescription(`> <:1009095264398753822:1012341965884489831> | ${client.ws.ping} Ms`)
   message.channel.send(Crewembed)
 };
 exports.conf = {
