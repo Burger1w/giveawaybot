@@ -1,74 +1,73 @@
-const ms = require("ms");
-const Discord = require("discord.js");
-const num = require("num-parse");
+const Discord = require ("discord.js");
 
-exports.run = async (client, message, args) => {
-  if (!message.member.hasPermission("ADMINISTRATOR"))
-    return message.inlineReply(
-      "> <a:yanlss:1008733112592769024> **Sen çekiliş yapamazsın. `Administrator` yetkisine sahip değilsin!**"
-    );
-  let giveawayChannel = message.mentions.channels.first();
-  if (!giveawayChannel) {
-    return message.inlineReply("> <a:yanlss:1008733112592769024> **Geçerli Bir Kanaldan Bahsetmelisin!**");
-  }
-  let time = args[1];
-  if (!time)
-    return message.inlineReply(
-      '> <a:yanlss:1008733112592769024> **Lütfen geçerli bir zaman girin.** *Örneğin: "1s", "1m", "1d" vb.*'
-    );
-  if (ms(time) > ms("10d")) {
-    return message.inlineReply(
-      "> <a:yanlss:1008733112592769024> *Hediye verme süresi** *10* **günden az olmalıdır.**"
-    );
-  }
-  let winners = args[2];
-  if (!winners)
-    return message.inlineReply(
-      '> <a:yanlss:1008733112592769024> **Lütfen geçerli kazanan sayısı sağlayın.** *Örneğin: "1k", "2k"*'
-    );
-  winners = num(winners, 1);
-  if (winners > 15)
-    return message.inlineReply("> <a:yanlss:1008733112592769024> **Hediyeyi kazananlar** *15'ten* **az olmalıdır.**");
-  let prize = args.slice(3).join(" ");
-  if (!prize)
-    return message.inlineReply(
-      "> <a:yanlss:1008733112592769024> **Lütfen hediye için ödülü sağlayın.** *Örneğin: m!çekiliş 1d 2 Discord Nitro*"
+exports.run = (client, message) => {
+
+  if (!message.guild) {
+
+    const ozelmesajuyari = new Discord.MessageEmbed()
+
+    .setColor(0xFF0000)
+
+    .setTimestamp()
+
+    .setAuthor(message.author.username, message.author.avatarURL)
+
+    .addField('Komutları Özel Mesajlarda Kullanılamaz!')
+
+    return message.author.send(ozelmesajuyari); }
+
+const EmbedCrewCode = new Discord.MessageEmbed()
+
+.setColor("#6767e0")
+.setTitle("Mlickle Yardım Menüsü")
+.setThumbnail('https://media.discordapp.net/attachments/1012351091096178829/1020666747780608062/thumbnail.png?width=402&height=402')
+.setImage("https://media.discordapp.net/attachments/1012351091096178829/1020666747780608062/thumbnail.png?width=402&height=402")
+.setDescription(`
+**<:slash:1017880313172594740> Prefix:** *m!*
+**<:mavi_tac2:1017876004557049957> Sahib:** FR | Uykucuk ♆#1851
+
+**Çekiliş Komutları**
+<:hediyekutusu:1018260326904508598> **m!başlat** - *Çekilişi Başlatır.*
+<:hediyekutusu:1018260326904508598> **m!bitir** - *Çekilişi Sonlandırır.*
+<:hediyekutusu:1018260326904508598> **m!reroll** - *Yeni Kazanan Kişiyi Tekrar Seçer.*
+<:hediyekutusu:1018260326904508598> **m!edit** - *Çekilişi Düzenler.*
+<:hediyekutusu:1018260326904508598> **m!sil** - *Çekilişi Siler.*
+`)
+
+   
+
+    .setImage(
+
+      ""
+
     );
 
-  client.giveawaysManager.start(giveawayChannel, {
-    time: ms(time),
-    winnerCount: winners,
-    prize: prize,
-    hostedBy: message.author,
-    messages: {
-      giveaway: "🎉 **Çekiliş** 🎉",
-      giveawayEnded: "🎊 **Çekiliş Sona Erdi** 🎊",
-      timeRemaining: "Kalan Süre **{duration}**!",
-      inviteToParticipate: 'Çekilişe katılmak için "🎉" emojisine basınız!',
-      winMessage:
-        "🎊 Tebrikler, {winners} çekilişi kazandınız. İşte ödülünüz **{prize}**!",
-      embedFooter: "Giveaway",
-      noWinner: "Geçersiz katılımlar yüzünden kimse kazanmadı!",
-      hostedBy: "Çekiliş Başlatan: {user}",
-      winners: "Kazananlar",
-      endedAt: "Bitti",
-      units: {
-        seconds: "saniye",
-        minutes: "dakika",
-        hours: "saat",
-        days: "gün"
-      }
-    }
-  });
-  if (message.deletable) message.delete();
-  return;
+   
+
+return message.channel.send(EmbedCrewCode)
+
+.then; 
+
 };
+
 exports.conf = {
-  enabled: true,
-  guildOnly: false,
-  aliases: [],
-  permLevel: 0
+
+    enabled: true, 
+
+    guildOnly: false, 
+
+    aliases: [], 
+
+    permLevel: 0 
+
 };
-exports.help = {
-  name: "çekiliş"
+
+  exports.help = {
+
+    name: 'çekiliş', 
+
+    description: 'Botun Komut Listesini Gösterir!',
+
+    usage: '.yardım'
+
 };
